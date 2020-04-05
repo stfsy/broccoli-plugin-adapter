@@ -5,7 +5,8 @@
   "main": "lib/index",
   "scripts": {
     "test-watch": "mocha test/spec --watch --check-leaks",
-    "test": "cd test/fixtures && node run-broccoli.js build && cd ../../ && mocha test/spec --check-leaks",
+    "test": "npm run test-run-broccoli && mocha test/spec --check-leaks",
+    "test-run-broccoli": "cd test/fixtures && node run-broccoli.js build",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- test/spec --check-leaks",
     "docs": "jsdoc lib --destination docs --configure .jsdoc.json --readme README.md ",
     "preversion": "npm run test",
