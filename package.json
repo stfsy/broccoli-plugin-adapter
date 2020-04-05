@@ -21,9 +21,7 @@
     "url": "git+https://github.com/stfsy/broccoli-plugin-adapter.git"
   },
   "dependencies": {
-    "broccoli-plugin": "^4.0.2",
-    "livereload": "^0.7.0",
-    "node-html-light": "^1.1.0"
+    "broccoli-plugin": "^4.0.2"
   },
   "devDependencies": {
     "broccoli": "^3.4.1",
