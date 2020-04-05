@@ -15,13 +15,16 @@ Broccoli plugin adapter. Allows easy implementation of broccoli plugins.
 ```js
 'use strict'
 
-const BroccoliPlugin = require('broccoli-plugin-adapter')
+const BroccoliPluginAdapter = require('broccoli-plugin-adapter')
 
 const tag = require('./tag')
 const Injector = require('./injector')
 const livereload = require('livereload')
 
-class BroccoliLivereload extends BroccoliPlugin {
+/**
+ * Let your plugin extend BroccoliPluginAdapter
+ **/
+class BroccoliLivereload extends BroccoliPluginAdapter {
 
     constructor(inputNodes, options) {
         super(inputNodes, options)
