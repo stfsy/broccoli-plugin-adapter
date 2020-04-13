@@ -1,3 +1,13 @@
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/stfsy/broccoli-plugin-adapter/compare/v1.2.0...v1.2.1) (2020-04-13)
+
+
+### Bug Fixes
+
+* nested files are not picked up ([703932a](https://github.com/stfsy/broccoli-plugin-adapter/commit/703932a))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/stfsy/broccoli-plugin-adapter/compare/v1.1.0...v1.2.0) (2020-04-13)
 
