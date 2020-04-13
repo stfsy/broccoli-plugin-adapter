@@ -24,8 +24,8 @@ describe('BroccoliPluginAdapter', () => {
         expect(_compareFiles('test-uppercase.PNG')).to.be.true
     })
 
-    it('should copy nested/nested.png to the output directory', () => {
-        expect(_compareFiles('nested/nested.png')).to.be.true
+    it('should copy nested/nested/nested.png to the output directory', () => {
+        expect(_compareFiles('nested/nested/nested.png')).to.be.true
     })
 
     const _compareFiles = (file) => {
