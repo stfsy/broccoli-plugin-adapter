@@ -1,3 +1,14 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/stfsy/broccoli-plugin-adapter/compare/v1.2.1...v1.3.0) (2021-02-09)
+
+
+### Features
+
+* update outdated dependencies ([65fd35e](https://github.com/stfsy/broccoli-plugin-adapter/commit/65fd35e))
+* update vulnerable dependencies ([5bd31ce](https://github.com/stfsy/broccoli-plugin-adapter/commit/5bd31ce))
+
+
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/stfsy/broccoli-plugin-adapter/compare/v1.2.0...v1.2.1) (2020-04-13)
 
