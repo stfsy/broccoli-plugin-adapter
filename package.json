@@ -22,16 +22,16 @@
     "url": "git+https://github.com/stfsy/broccoli-plugin-adapter.git"
   },
   "dependencies": {
-    "broccoli-plugin": "^4.0.3"
+    "broccoli-plugin": "^4.0.7"
   },
   "devDependencies": {
-    "broccoli": "^3.5.0",
-    "chai": "^4.3.0",
+    "broccoli": "^3.5.2",
+    "chai": "^4.3.4",
     "chai-spies": "^1.0.0",
     "conventional-changelog-cli": "^2.1.1",
     "istanbul": "^0.4.4",
     "minami": "^1.1.1",
-    "mocha": "^8.2.1",
+    "mocha": "^8.4.0",
     "rimraf": "^3.0.2"
   },
   "keywords": [
