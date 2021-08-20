@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/stfsy/broccoli-plugin-adapter/compare/v1.4.0...v1.4.1) (2021-08-20)
+
+
+### Bug Fixes
+
+* crash walking empty directories ([d22329e](https://github.com/stfsy/broccoli-plugin-adapter/commit/d22329e55dc7b5e1665041a3622f3b78921b3b57))
+
+
+
 # [1.4.0](https://github.com/stfsy/broccoli-plugin-adapter/compare/v1.3.0...v1.4.0) (2021-05-13)
 
 

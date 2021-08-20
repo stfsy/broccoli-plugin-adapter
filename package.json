@@ -1,6 +1,6 @@
 {
   "name": "broccoli-plugin-adapter",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Adapter for custom broccoli plugins",
   "main": "lib/index",
   "scripts": {
