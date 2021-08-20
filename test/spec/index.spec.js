@@ -1,5 +1,6 @@
 'use strict'
 
+const fs = require('fs').promises
 const resolve = require('path').resolve
 const sha256 = require(resolve('test/sha256checksum'))
 
@@ -10,8 +11,13 @@ const GIVEN_FILES_ROOT_DIRECTORY = 'test/fixtures/app/'
 const PROCESSED_FILES_ROOT_DIRECTORY = 'test/fixtures/dist/'
 
 describe('BroccoliPluginAdapter', () => {
-    after(() => {
-        return new Promise((resolve) => {
+
+    before(async () => {
+        await fs.mkdir(GIVEN_FILES_ROOT_DIRECTORY + '/empty-folder')
+    })
+    after(async () => {
+        await fs.rmdir(GIVEN_FILES_ROOT_DIRECTORY + '/empty-folder')
+        await new Promise((resolve) => {
             rimRaf(PROCESSED_FILES_ROOT_DIRECTORY, resolve)
         })
     })
