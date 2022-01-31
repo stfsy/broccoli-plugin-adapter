@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "broccoli": "^3.5.2",
-    "chai": "^4.3.4",
+    "chai": "^4.3.6",
     "chai-spies": "^1.0.0",
     "conventional-changelog-cli": "^2.2.2",
     "istanbul": "^0.4.4",
